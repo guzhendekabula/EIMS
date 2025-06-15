@@ -1,0 +1,483 @@
+﻿namespace EIMS_22318017
+{
+    partial class Search_Employee
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.btn_return = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.lv_Employee = new System.Windows.Forms.ListView();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.btn_search = new System.Windows.Forms.Button();
+            this.btn_cancel = new System.Windows.Forms.Button();
+            this.nudown_id = new System.Windows.Forms.NumericUpDown();
+            this.txt_FName = new System.Windows.Forms.TextBox();
+            this.txt_LName = new System.Windows.Forms.TextBox();
+            this.rbtn_Sex1 = new System.Windows.Forms.RadioButton();
+            this.rbtn_Sex2 = new System.Windows.Forms.RadioButton();
+            this.hire_date_picker = new System.Windows.Forms.DateTimePicker();
+            this.birthday_picker = new System.Windows.Forms.DateTimePicker();
+            this.txt_Address = new System.Windows.Forms.TextBox();
+            this.txt_Telephone = new System.Windows.Forms.TextBox();
+            this.end_hire_date_picker = new System.Windows.Forms.DateTimePicker();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.end_birthday_picker = new System.Windows.Forms.DateTimePicker();
+            this.label12 = new System.Windows.Forms.Label();
+            this.btn_search_department = new System.Windows.Forms.Button();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudown_id)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // btn_return
+            // 
+            this.btn_return.Font = new System.Drawing.Font("宋体", 12F);
+            this.btn_return.Location = new System.Drawing.Point(1112, 27);
+            this.btn_return.Name = "btn_return";
+            this.btn_return.Size = new System.Drawing.Size(131, 42);
+            this.btn_return.TabIndex = 0;
+            this.btn_return.Text = "返回";
+            this.btn_return.UseVisualStyleBackColor = true;
+            this.btn_return.Click += new System.EventHandler(this.btn_return_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.label12);
+            this.groupBox1.Controls.Add(this.end_birthday_picker);
+            this.groupBox1.Controls.Add(this.label11);
+            this.groupBox1.Controls.Add(this.label10);
+            this.groupBox1.Controls.Add(this.label9);
+            this.groupBox1.Controls.Add(this.end_hire_date_picker);
+            this.groupBox1.Controls.Add(this.txt_Telephone);
+            this.groupBox1.Controls.Add(this.txt_Address);
+            this.groupBox1.Controls.Add(this.birthday_picker);
+            this.groupBox1.Controls.Add(this.hire_date_picker);
+            this.groupBox1.Controls.Add(this.rbtn_Sex2);
+            this.groupBox1.Controls.Add(this.rbtn_Sex1);
+            this.groupBox1.Controls.Add(this.txt_LName);
+            this.groupBox1.Controls.Add(this.txt_FName);
+            this.groupBox1.Controls.Add(this.nudown_id);
+            this.groupBox1.Controls.Add(this.btn_cancel);
+            this.groupBox1.Controls.Add(this.btn_search);
+            this.groupBox1.Controls.Add(this.label8);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Font = new System.Drawing.Font("宋体", 12F);
+            this.groupBox1.Location = new System.Drawing.Point(13, 75);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(1360, 370);
+            this.groupBox1.TabIndex = 1;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "查询员工";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.lv_Employee);
+            this.groupBox2.Font = new System.Drawing.Font("宋体", 12F);
+            this.groupBox2.Location = new System.Drawing.Point(13, 518);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(1360, 307);
+            this.groupBox2.TabIndex = 2;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "员工信息表";
+            // 
+            // lv_Employee
+            // 
+            this.lv_Employee.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader1,
+            this.columnHeader2,
+            this.columnHeader3,
+            this.columnHeader4,
+            this.columnHeader5,
+            this.columnHeader6,
+            this.columnHeader7,
+            this.columnHeader8,
+            this.columnHeader9});
+            this.lv_Employee.FullRowSelect = true;
+            this.lv_Employee.GridLines = true;
+            this.lv_Employee.Location = new System.Drawing.Point(7, 28);
+            this.lv_Employee.MultiSelect = false;
+            this.lv_Employee.Name = "lv_Employee";
+            this.lv_Employee.Size = new System.Drawing.Size(1347, 273);
+            this.lv_Employee.TabIndex = 0;
+            this.lv_Employee.UseCompatibleStateImageBehavior = false;
+            this.lv_Employee.View = System.Windows.Forms.View.Details;
+            this.lv_Employee.SelectedIndexChanged += new System.EventHandler(this.lv_Employee_SelectedIndexChanged);
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "编号";
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "姓";
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "名";
+            // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "性别";
+            // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "入职日期";
+            this.columnHeader5.Width = 180;
+            // 
+            // columnHeader6
+            // 
+            this.columnHeader6.Text = "出生日期";
+            this.columnHeader6.Width = 180;
+            // 
+            // columnHeader7
+            // 
+            this.columnHeader7.Text = "地址";
+            this.columnHeader7.Width = 180;
+            // 
+            // columnHeader8
+            // 
+            this.columnHeader8.Text = "电话";
+            this.columnHeader8.Width = 180;
+            // 
+            // columnHeader9
+            // 
+            this.columnHeader9.Text = "密码";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(83, 49);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(82, 24);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "编号：";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(724, 49);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(58, 24);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "姓：";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(960, 50);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(58, 24);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "名：";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(83, 131);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(82, 24);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "性别：";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(489, 136);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(130, 24);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "入职日期：";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(489, 217);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(130, 24);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "出生日期：";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(83, 217);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(82, 24);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "地址：";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(83, 300);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(82, 24);
+            this.label8.TabIndex = 7;
+            this.label8.Text = "电话：";
+            // 
+            // btn_search
+            // 
+            this.btn_search.Font = new System.Drawing.Font("宋体", 15F);
+            this.btn_search.Location = new System.Drawing.Point(728, 283);
+            this.btn_search.Name = "btn_search";
+            this.btn_search.Size = new System.Drawing.Size(151, 55);
+            this.btn_search.TabIndex = 8;
+            this.btn_search.Text = "查询";
+            this.btn_search.UseVisualStyleBackColor = true;
+            this.btn_search.Click += new System.EventHandler(this.btn_search_Click);
+            // 
+            // btn_cancel
+            // 
+            this.btn_cancel.Font = new System.Drawing.Font("宋体", 15F);
+            this.btn_cancel.Location = new System.Drawing.Point(1041, 283);
+            this.btn_cancel.Name = "btn_cancel";
+            this.btn_cancel.Size = new System.Drawing.Size(151, 55);
+            this.btn_cancel.TabIndex = 9;
+            this.btn_cancel.Text = "取消";
+            this.btn_cancel.UseVisualStyleBackColor = true;
+            this.btn_cancel.Click += new System.EventHandler(this.btn_cancel_Click);
+            // 
+            // nudown_id
+            // 
+            this.nudown_id.Location = new System.Drawing.Point(161, 47);
+            this.nudown_id.Name = "nudown_id";
+            this.nudown_id.Size = new System.Drawing.Size(262, 35);
+            this.nudown_id.TabIndex = 10;
+            // 
+            // txt_FName
+            // 
+            this.txt_FName.Location = new System.Drawing.Point(792, 46);
+            this.txt_FName.Name = "txt_FName";
+            this.txt_FName.Size = new System.Drawing.Size(100, 35);
+            this.txt_FName.TabIndex = 11;
+            // 
+            // txt_LName
+            // 
+            this.txt_LName.Location = new System.Drawing.Point(1057, 46);
+            this.txt_LName.Name = "txt_LName";
+            this.txt_LName.Size = new System.Drawing.Size(173, 35);
+            this.txt_LName.TabIndex = 12;
+            // 
+            // rbtn_Sex1
+            // 
+            this.rbtn_Sex1.AutoSize = true;
+            this.rbtn_Sex1.Location = new System.Drawing.Point(171, 129);
+            this.rbtn_Sex1.Name = "rbtn_Sex1";
+            this.rbtn_Sex1.Size = new System.Drawing.Size(59, 28);
+            this.rbtn_Sex1.TabIndex = 13;
+            this.rbtn_Sex1.TabStop = true;
+            this.rbtn_Sex1.Text = "男";
+            this.rbtn_Sex1.UseVisualStyleBackColor = true;
+            // 
+            // rbtn_Sex2
+            // 
+            this.rbtn_Sex2.AutoSize = true;
+            this.rbtn_Sex2.Location = new System.Drawing.Point(270, 127);
+            this.rbtn_Sex2.Name = "rbtn_Sex2";
+            this.rbtn_Sex2.Size = new System.Drawing.Size(59, 28);
+            this.rbtn_Sex2.TabIndex = 14;
+            this.rbtn_Sex2.TabStop = true;
+            this.rbtn_Sex2.Text = "女";
+            this.rbtn_Sex2.UseVisualStyleBackColor = true;
+            // 
+            // hire_date_picker
+            // 
+            this.hire_date_picker.Location = new System.Drawing.Point(689, 131);
+            this.hire_date_picker.Name = "hire_date_picker";
+            this.hire_date_picker.Size = new System.Drawing.Size(267, 35);
+            this.hire_date_picker.TabIndex = 15;
+            // 
+            // birthday_picker
+            // 
+            this.birthday_picker.Location = new System.Drawing.Point(689, 210);
+            this.birthday_picker.Name = "birthday_picker";
+            this.birthday_picker.Size = new System.Drawing.Size(267, 35);
+            this.birthday_picker.TabIndex = 16;
+            // 
+            // txt_Address
+            // 
+            this.txt_Address.Location = new System.Drawing.Point(161, 214);
+            this.txt_Address.Name = "txt_Address";
+            this.txt_Address.Size = new System.Drawing.Size(262, 35);
+            this.txt_Address.TabIndex = 17;
+            // 
+            // txt_Telephone
+            // 
+            this.txt_Telephone.Location = new System.Drawing.Point(161, 297);
+            this.txt_Telephone.Name = "txt_Telephone";
+            this.txt_Telephone.Size = new System.Drawing.Size(262, 35);
+            this.txt_Telephone.TabIndex = 18;
+            // 
+            // end_hire_date_picker
+            // 
+            this.end_hire_date_picker.Location = new System.Drawing.Point(1077, 129);
+            this.end_hire_date_picker.Name = "end_hire_date_picker";
+            this.end_hire_date_picker.Size = new System.Drawing.Size(267, 35);
+            this.end_hire_date_picker.TabIndex = 19;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(625, 136);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(58, 24);
+            this.label9.TabIndex = 20;
+            this.label9.Text = "始：";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(1013, 136);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(58, 24);
+            this.label10.TabIndex = 21;
+            this.label10.Text = "终：";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(625, 217);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(58, 24);
+            this.label11.TabIndex = 22;
+            this.label11.Text = "始：";
+            // 
+            // end_birthday_picker
+            // 
+            this.end_birthday_picker.Location = new System.Drawing.Point(1077, 210);
+            this.end_birthday_picker.Name = "end_birthday_picker";
+            this.end_birthday_picker.Size = new System.Drawing.Size(267, 35);
+            this.end_birthday_picker.TabIndex = 23;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(1013, 217);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(58, 24);
+            this.label12.TabIndex = 24;
+            this.label12.Text = "终：";
+            // 
+            // btn_search_department
+            // 
+            this.btn_search_department.Font = new System.Drawing.Font("宋体", 15F);
+            this.btn_search_department.Location = new System.Drawing.Point(529, 462);
+            this.btn_search_department.Name = "btn_search_department";
+            this.btn_search_department.Size = new System.Drawing.Size(221, 50);
+            this.btn_search_department.TabIndex = 3;
+            this.btn_search_department.Text = "查看部门信息";
+            this.btn_search_department.UseVisualStyleBackColor = true;
+            this.btn_search_department.Click += new System.EventHandler(this.btn_search_department_Click);
+            // 
+            // Search_Employee
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1387, 837);
+            this.Controls.Add(this.btn_search_department);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.btn_return);
+            this.Name = "Search_Employee";
+            this.Text = "员工信息查询页面";
+            this.Load += new System.EventHandler(this.Search_Employee_Load);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.nudown_id)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button btn_return;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.ListView lv_Employee;
+        private System.Windows.Forms.ColumnHeader columnHeader1;
+        private System.Windows.Forms.ColumnHeader columnHeader2;
+        private System.Windows.Forms.ColumnHeader columnHeader3;
+        private System.Windows.Forms.ColumnHeader columnHeader4;
+        private System.Windows.Forms.ColumnHeader columnHeader5;
+        private System.Windows.Forms.ColumnHeader columnHeader6;
+        private System.Windows.Forms.ColumnHeader columnHeader7;
+        private System.Windows.Forms.ColumnHeader columnHeader8;
+        private System.Windows.Forms.ColumnHeader columnHeader9;
+        private System.Windows.Forms.TextBox txt_LName;
+        private System.Windows.Forms.TextBox txt_FName;
+        private System.Windows.Forms.NumericUpDown nudown_id;
+        private System.Windows.Forms.Button btn_cancel;
+        private System.Windows.Forms.Button btn_search;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.RadioButton rbtn_Sex2;
+        private System.Windows.Forms.RadioButton rbtn_Sex1;
+        private System.Windows.Forms.DateTimePicker birthday_picker;
+        private System.Windows.Forms.DateTimePicker hire_date_picker;
+        private System.Windows.Forms.TextBox txt_Telephone;
+        private System.Windows.Forms.TextBox txt_Address;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.DateTimePicker end_birthday_picker;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.DateTimePicker end_hire_date_picker;
+        private System.Windows.Forms.Button btn_search_department;
+    }
+}
